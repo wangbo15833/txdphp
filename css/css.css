@@ -1,0 +1,212 @@
+@charset "utf-8";
+html, body { padding:0; margin:0; background-color: #fff; }
+* { list-style-type:none; padding: 0; }
+ul, li { list-style: none; margin: 0px; padding: 0px; }
+a, img { border:0; }
+.huang { color: #fff45c; }
+.hei { color: #000; }
+
+.bai{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #FFF; text-decoration: none; }
+a.bai:hover{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #fff45c; text-decoration: underline; }
+
+.lmenu{ font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; color: #7d7d7d; text-decoration: none; }
+a.lmenu:hover{ font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; color: #2d4953; text-decoration: underline; }
+
+div.pageclass { font-size: 12px; color: #4e4e4e; font-family: Arial, Helvetica, sans-serif; background-color: #fff; height: 17px; }
+div.pageclass a { padding-right: 3px; padding-left: 3px; color: #424242; text-decoration: none; margin: 0px; line-height: 15px; height: 15px; padding-top: 2px; }
+div.pageclass a:hover { color: #467469; text-decoration: none; }
+div.pageclass a:active { color: #467469; }
+div.pageclass span.current { padding-right: 3px; padding-left: 3px; FONT-WEIGHT: bold; color: #467469; line-height: 15px; padding-top: 2px; }
+div.pageclass span.disabled { display: none; }
+div.pageclass img { vertical-align: middle; }
+
+.topb { background-image: url(../images/topb.png); background-repeat: repeat-x; height: 117px; width: 983px; margin-right: auto; margin-left: auto; }
+.pic { height: 396px; width: 983px; margin-right: auto; margin-left: auto; }
+.pic_sub { height: 144px; width: 983px; margin-right: auto; margin-left: auto; }
+
+.kong_15 { height: 15px; width: 983px; margin-right: auto; margin-left: auto; overflow: hidden; }
+.kong_20 { height: 20px; width: 983px; margin-right: auto; margin-left: auto; overflow: hidden; }
+.kong_38 { height: 38px; width: 983px; margin-right: auto; margin-left: auto; overflow: hidden; }
+
+.logo { margin: 0px; padding: 0px; float: left; height: 117px; width: 124px; }
+.top_right { float: left; height: 117px; width: 859px; }
+.top_right_login { margin: 0px; height: 31px; width: 834px; text-align: right; padding-top: 0px; padding-right: 25px; padding-bottom: 0px; padding-left: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; line-height: 31px; text-decoration: none; color: #fff45c; }
+.top_right_m { float: left; height: 37px; width: 859px; }
+.top_right_m h1 { margin: 0px; padding: 0px; float: left; height: 37px; width: 410px; }
+.top_right_m h2 { margin: 0px; float: left; height: 12px; width: 18px; padding-top: 8px; padding-right: 6px; padding-left: 89px; padding-bottom: 17px; }
+.top_right_m h3 { margin: 0px; float: left; height: 12px; width: 116px; padding-top: 8px; padding-right: 0px; padding-left: 0px; padding-bottom: 17px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 12px; font-weight: normal; color: #FFF; text-decoration: none; }
+.top_right_m h4 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-decoration: none; line-height: 12px; height: 12px; padding-top: 8px; color: #fff45c; margin: 0px; float: right; padding-right: 22px; }
+
+.top_menu { margin: 0px; height: 33px; width: 827px; float: left; padding-top: 0px; padding-right: 22px; padding-bottom: 15px; padding-left: 10px; }
+.inps { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 21px; font-weight: normal; color: #cacaca; text-decoration: none; margin: 0px; padding: 0px; height: 21px; width: 110px; background-image: url(../images/sbg.png); background-repeat: repeat-x; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+.go { height: 15px; width: 25px; padding: 0px; margin-top: 3px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
+
+
+.menu { height: 34px; width: 629px; float: left; }
+.menu ul li { float: left; }
+#menu ul li .v1 a{ width:97px; height:34px; float:left; background-image: url(../images/menu1_1.png); background-repeat: no-repeat; 
+}
+#menu ul li .v1 a:hover,#menu li .v1 .sele{ background-image: url(../images/menu1_2.png); background-repeat: no-repeat; 
+}
+#menu ul li .v2 a{ width:92px; height:34px; float:left; background-image: url(../images/menu2_1.png); background-repeat: no-repeat; 
+}
+#menu ul li .v2 a:hover,#menu li .v2 .sele{ background-image: url(../images/menu2_2.png); background-repeat: no-repeat; 
+}
+#menu ul li .v3 a{ width:75px; height:34px; float:left; background-image: url(../images/menu3_1.png); background-repeat: no-repeat; 
+}
+#menu ul li .v3 a:hover,#menu li .v3 .sele{ background-image: url(../images/menu3_2.png); background-repeat: no-repeat; 
+}
+#menu ul li .v4 a{ width:149px; height:34px; float:left; background-image: url(../images/menu4_1.png); background-repeat: no-repeat; 
+}
+#menu ul li .v4 a:hover,#menu li .v4 .sele{ background-image: url(../images/menu4_2.png); background-repeat: no-repeat; 
+}
+#menu ul li .v5 a{ width:110px; height:34px; float:left; background-image: url(../images/menu5_1.png); background-repeat: no-repeat; 
+}
+#menu ul li .v5 a:hover,#menu li .v5 .sele{ background-image: url(../images/menu5_2.png); background-repeat: no-repeat; 
+}
+#menu ul li .v6 a{ width:106px; height:34px; float:left; background-image: url(../images/menu6_1.png); background-repeat: no-repeat; 
+}
+#menu ul li .v6 a:hover,#menu li .v6 .sele{ background-image: url(../images/menu6_2.png); background-repeat: no-repeat; 
+}
+.menu_end { background-image: url(../images/menuend.png); background-repeat: no-repeat; float: left; height: 34px; width: 198px; background-position: right; }
+.menu_end h1 { margin: 0px; float: left; height: 15px; width: 16px; padding-top: 10px; padding-right: 13px; padding-bottom: 9px; padding-left: 21px; }
+.menu_end h2 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 34px; font-weight: normal; color: #FFF; text-decoration: none; margin: 0px; padding: 0px; float: left; height: 34px; }
+
+.menu_end h4 { float: left; height: 21px; width: 156px; padding-top: 7px; padding-left: 34px; }
+.menu_end h4 em { margin: 0px; padding: 0px; float: left; height: 21px; width: 9px; }
+.menu_end h4 dd { margin: 0px; padding: 0px; float: left; height: 21px; width: 30px; background-image: url(../images/sr.png); background-repeat: no-repeat; }
+.menu_end h4 dt { margin: 0px; padding: 0px; float: left; height: 21px; width: 110px; background-image: url(../images/sbg.png); background-repeat: repeat-x; }
+
+.kong_11 { padding: 0px; height: 11px; width: 983px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; background-image: url(../images/xkong.png); background-repeat: repeat-x; overflow: hidden; }
+.hdv { background-color: #f6f6f6; height: 30px; width: 981px; margin-right: auto; margin-left: auto; border: 1px solid #d3d3d3; }
+.hdv h1 { font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #000; text-decoration: none; float: left; height: 30px; padding-left: 12px; overflow: hidden; margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; font-weight: normal; }
+.hmainw { height: 211px; width: 983px; margin-right: auto; margin-left: auto; overflow: hidden; }
+.hmain { height: 211px; width: 900px; overflow: hidden; float: left; }
+.hmain ul li { padding: 0px; float: left; height: 209px; width: 158px; border: 1px dotted #bcbcbc; margin-top: 0px; margin-right: 20px; margin-bottom: 0px; margin-left: 0px; }
+.hmain ul li h1 { margin: 0px; padding: 0px; float: left; height: 153px; width: 158px; }
+.hmain ul li h2 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: bold; color: #467469; text-decoration: none; text-align: center; margin: 0px; padding: 0px; float: left; height: 20px; width: 158px; }
+.hmain ul li h3 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; color: #333333; text-decoration: none; text-align: center; margin: 0px; padding: 0px; float: left; height: 20px; width: 158px; }
+.hmain ul li h4 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 30px; font-weight: bold; color: #467469; text-decoration: none; text-align: center; margin: 0px; padding: 0px; float: left; height: 30px; width: 158px; }
+.hmain ul li h5 { text-align: center; margin: 0px; float: left; height: 24px; width: 148px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 10px; }
+.hmain ul li h5 dt { height: 24px; width: 80px; float: left; margin: 0px; padding: 0px; }
+.hmain ul li h5 dd { height: 24px; width: 60px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 24px; font-weight: bold; color: #34525d; text-decoration: underline; margin: 0px; padding: 0px; float: left; }
+.hmain ul li h6 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; font-weight: bold; color: #467469; text-decoration: none; text-align: center; margin: 0px; padding: 0px; float: left; height: 57px; width: 57px; position: absolute; z-index: 2; }
+
+.hmain_m { margin: 0px; float: right; height: 35px; width: 35px; padding-top: 88px; padding-right: 30px; padding-bottom: 88px; padding-left: 0px; }
+.hbo { height: 150px; width: 983px; margin-right: auto; margin-left: auto; }
+.bottom { background-image: url(../images/botm.png); background-repeat: repeat-x; height: 83px; width: 983px; margin-right: auto; margin-left: auto; }
+.bottom h1 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 29px; font-weight: normal; color: #FFF; text-decoration: none; margin: 0px; padding: 0px; height: 29px; width: 983px; text-align: center; }
+.bottom h2 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 54px; font-weight: normal; color: #FFF; text-decoration: none; text-align: center; margin: 0px; padding: 0px; height: 54px; width: 983px; }
+.hbo ul { padding: 0px; margin-left: -44px; }
+.hbo ul li { padding: 0px; float: left; height: 128px; width: 161px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 44px; }
+.hbo ul li h1 { font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 30px; font-weight: normal; color: #252525; text-decoration: none; padding: 0px; float: left; height: 30px; width: 161px; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #bcbcbc; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; }
+.hbo ul li h2 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; font-weight: normal; color: #34565d; text-decoration: underline; margin: 0px; padding: 0px; float: left; height: 22px; width: 161px; }
+
+.main_bodys { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 25px; font-weight: normal; color: #707070; text-decoration: none; width: 983px; margin-right: auto; margin-left: auto; overflow: hidden; }
+.main_left { float: left; height: 100%; padding-bottom: 10000px; margin-bottom: -10000px; width: 169px; overflow: hidden; }
+.main_right{ float: right; height: 100%; padding-bottom: 10000px; margin-bottom: -10000px; width: 757px; overflow: hidden; }
+.main_left_menu { width: 169px; overflow: hidden; }
+.main_left_menu ul li { float: left; height: 39px; width: 141px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; background-image: url(../images/lmenu.png); background-repeat: no-repeat; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 30px; font-weight: normal; color: #959595; text-decoration: none; }
+.main_left_menu ul li.current { float: left; height: 39px; width: 141px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; background-image: url(../images/lmenus.png); background-repeat: no-repeat; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 30px; font-weight: normal; color: #434343; text-decoration: none; }
+.main_left_menu ul li.sub { float: left; height: 39px; width: 131px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; background-image: url(../images/lmenue.png); background-repeat: no-repeat; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 38px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 30px; font-weight: normal; color: #959595; text-decoration: none; }
+.main_left_menu ul li.subd { float: left; height: 55px; width: 131px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; background-image: url(../images/lmenued.png); background-repeat: no-repeat; padding-top: 5px; padding-right: 0px; padding-bottom: 0px; padding-left: 38px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; color: #959595; text-decoration: none; }
+.main_left_menu ul li.sue { float: left; height: 39px; width: 131px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; background-image: url(../images/lmenuee.png); background-repeat: no-repeat; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 38px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 30px; font-weight: normal; color: #959595; text-decoration: none; }
+.main_left_menu ul li.sued { float: left; height: 55px; width: 131px; margin-top: 0px; margin-right: 0px; margin-bottom: 3px; margin-left: 0px; background-image: url(../images/lmenueed.png); background-repeat: no-repeat; padding-top: 5px; padding-right: 0px; padding-bottom: 0px; padding-left: 38px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; color: #959595; text-decoration: none; }
+
+.mlist_k { height: 14px; width: 755px; overflow: hidden; }
+
+.mlist_tit { height: 30px; width: 747px; border: 1px solid #d3d3d3; background-color: #f8f8f8; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; font-weight: normal; color: #000; text-decoration: none; padding-left: 8px; }
+.mlist_titb { padding: 0px; height: 15px; width: 757px; background-image: url(../images/xkong.png); background-repeat: repeat-x; overflow: hidden; margin: 0px; }
+.mlist_titw { height: 42px; width: 700px; overflow: hidden; margin: 0px; text-align: right; padding-top: 0px; padding-right: 57px; padding-bottom: 0px; padding-left: 0px; line-height: 42px; }
+.mlist_tits { height: 31px; width: 757px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; font-weight: normal; color: #000; text-decoration: none; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #bcbcbc; }
+
+.mlist_main { width: 757px; overflow: hidden; }
+.mlist_mains { width: 700px; overflow: hidden; float: left; }
+.mlist_mains ul { margin-left: -20px; }
+
+.mlist_mains ul li { padding: 0px; float: left; height: 209px; width: 158px; border: 1px dotted #bcbcbc; margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 20px; }
+.mlist_mains ul li h1 { margin: 0px; padding: 0px; float: left; height: 153px; width: 158px; position: relative; }
+.mlist_mains ul li h2 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: bold; color: #467469; text-decoration: none; text-align: center; margin: 0px; padding: 0px; float: left; height: 20px; width: 158px; }
+.mlist_mains ul li h3 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; color: #333333; text-decoration: none; text-align: center; margin: 0px; padding: 0px; float: left; height: 20px; width: 158px; }
+.mlist_mains ul li h4 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 30px; font-weight: bold; color: #467469; text-decoration: none; text-align: center; margin: 0px; padding: 0px; float: left; height: 30px; width: 158px; }
+.mlist_mains ul li h5 { text-align: center; margin: 0px; float: left; height: 24px; width: 148px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 10px; }
+.mlist_mains ul li h5 dt { height: 24px; width: 80px; float: left; margin: 0px; padding: 0px; }
+.mlist_mains ul li h5 dd { height: 24px; width: 60px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 24px; font-weight: bold; color: #34525d; text-decoration: underline; margin: 0px; padding: 0px; float: left; }
+.mlist_mains ul li h6 { margin: 0px; padding: 0px; height: 57px; width: 57px; position: absolute; z-index: 2; }
+
+
+.mlist_mains_m { margin: 0px; float: left; height: 35px; width: 35px; padding-top: 113px; padding-right: 0px; padding-bottom: 113px; padding-left: 15px; }
+.mlist_body { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 23px; font-weight: normal; color: #666; text-decoration: none; overflow: hidden; padding-bottom: 20px; padding-right: 5px; padding-left: 5px; padding-top: 10px; }
+
+.main_right_inputs { float: left; height: 10px; padding-left: 30px; }
+
+.main_right_inputss { width: 450px; float: left; padding-top: 5px; padding-bottom: 5px; overflow: hidden; }
+.main_right_inputss h1 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; color: #333; text-decoration: none; text-align: right; display: block; margin: 0px; float: left; width: 80px; font-weight: normal; padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px; overflow: hidden; }
+.main_right_inputss h2 { display: block; margin: 0px; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 23px; font-weight: normal; color: #333; text-decoration: none; padding-top: 5px; padding-right: 20px; padding-bottom: 5px; padding-left: 0px; overflow: hidden; width: 306px; }
+.main_right_inputss h3 { display: block; margin: 0px; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; font-weight: normal; color: #FF0000; text-decoration: none; height: 30px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 6px; }
+
+
+.main_right_input { width: 450px; float: left; height: 30px; padding-top: 5px; padding-bottom: 5px; }
+.main_right_input h1 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; color: #333; text-decoration: none; text-align: right; display: block; margin: 0px; float: left; height: 30px; width: 80px; font-weight: normal; padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px; }
+.main_right_input h2 { display: block; margin: 0px; float: left; height: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; font-weight: normal; color: #333; text-decoration: none; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 0px; }
+.main_right_input h3 { display: block; margin: 0px; padding: 0px; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; font-weight: normal; color: #FF0000; text-decoration: none; height: 30px; vertical-align: middle; }
+#keyid { padding-top: 50px; }
+.inpsub { border: 1px solid #d3d3d3; height: 22px; background-image: url(../images/input.png); background-repeat: repeat-x; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; color: #666; text-decoration: none; vertical-align: middle; font-weight: normal; padding-left: 5px; padding-top: 4px; }
+
+.inpsz { border: 1px solid #d3d3d3; width: 302px; height: 130px; background-image: url(../images/input.png); background-repeat: repeat-x; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; color: #666; text-decoration: none; padding-right: 5px; padding-left: 5px; vertical-align: middle; font-weight: normal; float: left; }
+
+.f-l{float:left;}
+.f-r{float:right;}
+
+.main_right_inpute { width: 450px; float: left; height: 30px; padding-top: 5px; padding-bottom: 5px; }
+.main_right_inpute h1 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; color: #333; text-decoration: none; text-align: right; display: block; margin: 0px; float: left; height: 30px; width: 80px; font-weight: normal; padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px; }
+.main_right_inpute h2 { display: block; margin: 0px; float: left; height: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; font-weight: normal; color: #333; text-decoration: none; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 0px; }
+
+
+/* focus */
+.focus{ width: 588px; overflow: hidden; position: relative; margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto; padding-top: 20px; }
+.focus .focuspic{ height: 426px; width: 999em; position: relative; float: left; padding-bottom: 8px; }
+.focus .focuspic .indexbanner{ float: left; width: 586px; position: relative; height: 424px; overflow: hidden; border: solid 1px #dfdfdf; }
+.focus .focuspic .indexbanner img { border: 1px solid #FFF; }
+
+/* scrollbox */
+.scrollbox{ height: 97px; float: left; }
+.scrollbox .scrollbtn{ width: 15px; height: 97px; overflow: hidden; background: url(../images/arrow.png) no-repeat; cursor: pointer; }
+.scrollbox #prev{background-position:0 0;}
+.scrollbox #prev.disabled{background-position:0 -97px;cursor:default;}
+.scrollbox #next{background-position:-15px 0;}
+.scrollbox #next.disabled{background-position:-15px -97px;cursor:default;}
+.scrollbox .scrollpic{ float: left; display: inline; width: 558px; height: 97px; overflow: hidden; }
+.scrollbox .scrollpic ul{ width: 999em; float: left; display: inline; margin: 0px; padding: 0px; }
+.scrollbox .scrollpic li{ float: left; width: 133px; text-align: center; padding: 0px; list-style-image: none; list-style-type: none; display: inline; height: 95px; border: 1px solid #dfdfdf; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 4px; }
+.scrollbox .scrollpic li img { border: 1px solid #fff; }
+.scrollbox .scrollpic li.current {border:solid 1px #467480;}
+.ptis { height: 64px; border: 1px solid #dfdfdf; margin-bottom: 5px; padding-top: 5px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
+.ptis h1 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; font-weight: normal; color: #333; text-decoration: none; margin: 0px; float: left; height: 20px; padding-top: 0px; padding-right: 13px; padding-bottom: 0px; padding-left: 0px; }
+.ptis h1 span { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 25px; font-weight: bold; color: #000; text-decoration: none; padding-right: 10px; }
+.ptis h2 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px; float: left; height: 20px; width: 550px; }
+.ptis h2 span { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 25px; font-weight: bold; color: #000; text-decoration: none; padding-right: 10px; }
+
+/* picbgs */
+#picbgs { width: 983px; height: 396px; overflow: hidden; position: relative;}
+#picbgs ul { height: 117px; position: absolute; }
+#picbgs ul li {float:left; width:983px; height:396px; overflow:hidden; position:relative; background:#000;}
+#picbgs ul li div {position:absolute; overflow:hidden;}
+#picbgs .btn {position:absolute; width:260px; height:10px; padding:20px 20px; right:0; bottom:0; text-align:right;}
+#picbgs .btn span {display:inline-block; _display:inline; _zoom:1; width:20px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+#picbgs .btn span.on {background:#fff;}
+
+/* picbgss */
+#picbgss { width: 983px; height: 145px; overflow: hidden; position: relative;}
+#picbgss ul { height: 117px; position: absolute; }
+#picbgss ul li {float:left; width:983px; height:145px; overflow:hidden; position:relative; background:#000;}
+#picbgss ul li div {position:absolute; overflow:hidden;}
+#picbgss .btn {position:absolute; width:260px; height:10px; padding:20px 20px; right:0; bottom:0; text-align:right;}
+#picbgss .btn span {display:inline-block; _display:inline; _zoom:1; width:20px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+#picbgss .btn span.on {background:#fff;}
+
+.main_right_inputs_n { float: left; height: 10px; padding-left: 30px; }
+.main_right_input_n { float: left; height: 30px; padding-top: 5px; padding-bottom: 5px; padding-left: 30px; }
+.main_right_input_n h1 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; color: #333; text-decoration: none; text-align: right; display: block; margin: 0px; float: left; height: 30px; width: 80px; font-weight: normal; padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px; }
+.main_right_input_n h2 { display: block; margin: 0px; float: left; height: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; font-weight: normal; color: #333; text-decoration: none; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 0px; }
+.main_right_input_n h3 { display: block; margin: 0px; padding: 0px; float: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 30px; font-weight: normal; color: #FF0000; text-decoration: none; height: 30px; vertical-align: middle; }

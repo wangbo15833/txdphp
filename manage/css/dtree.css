@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	white- space: nowrap;
+}
+
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	white- space: nowrap;
+}
+
+/*定义目录树节点的字体，字号，颜色*/
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #006600;
+	white-space: nowrap;
+}
+
+/*定义选用节点图标的样式，位置*/
+.dtree img {
+	border: none;
+	border: 0px;
+	vertical-align: middle;
+}
+
+.dtree a {
+	color: #006600;
+	text-decoration: none;
+}
+
+.dtree a.node,.dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+
+.dtree a.node:hover,.dtree a.nodeSel:hover {
+	color: #006600;
+	text-decoration: none;
+}
+
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+}
+
+.dtree .clip {
+	overflow: hidden;
+}

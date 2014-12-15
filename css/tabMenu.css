@@ -1,0 +1,61 @@
+
+/*Example for a Menu Style*/
+.tabMenu {
+	background:url(../images/tabMenu_bg1.png) repeat-x bottom;
+	height:33px;
+	width:100%;
+	position:relative;
+}
+.tabMenu ul {
+	width:100%;
+	height:100%;
+	margin:0px; 
+	padding:0px; 
+	list-style:none; 
+	text-align:left;
+}
+.tabMenu li {
+	height:33px;
+	background:url(../images/tabMenu_bg.png) repeat-x;
+	line-height:33px;
+	float:left;
+	text-align:center;
+	margin-right:2px;
+	padding:0px 15px;
+}
+.tabMenu li a {
+	color:#828282;
+	text-decoration:none;
+	font-family:"宋体";
+	font-size:14px;
+	font-weight:bold;
+}
+.tabMenu li.tabactive {
+	background:url(../images/tabMenu_hover_bg.png) repeat-x;
+}
+
+.tabMenu li.tabactive a {
+	color:#FFF;
+}
+.tabcontent{
+	width:100%;
+	text-align:left;
+	padding:6px 0px; 
+	font-size:12px; 
+	margin-bottom:5px;
+}
+
+
+.tabcontent table{
+	border:#E0E0E0 thin solid;
+	text-align:center;
+	margin-top:13px;
+	border-collapse:collapse;
+}
+
+
+.tabMenu img{
+	position:absolute;
+	right:0px;
+	top:12px;
+}

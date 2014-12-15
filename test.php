@@ -1,0 +1,1 @@
+<img style="cursor:pointer" title="刷新验证码" id="refresh" border='0' src='lib/code.php' onClick="document.getElementById('refresh').src='lib/code.php?t='+Math.random()"/>
